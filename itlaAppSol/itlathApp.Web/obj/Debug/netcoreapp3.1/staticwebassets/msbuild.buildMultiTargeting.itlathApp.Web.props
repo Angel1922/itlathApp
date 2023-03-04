@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\itlathApp.Web.props" />
+</Project>
