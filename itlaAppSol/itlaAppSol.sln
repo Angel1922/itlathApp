@@ -25,7 +25,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TEST", "TEST", "{A5A9DCDB-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{16924166-AC6B-4165-8EF8-3EB96DCA8B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "itlathApp.Test", "itlathApp.Test\itlathApp.Test.csproj", "{AE307135-7017-4C69-A2C2-6017B96FCFFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "itlathApp.Test", "itlathApp.Test\itlathApp.Test.csproj", "{AE307135-7017-4C69-A2C2-6017B96FCFFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECE95C90-B919-45B8-A9C9-083286BC8FC1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

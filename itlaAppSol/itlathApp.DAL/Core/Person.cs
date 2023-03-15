@@ -1,6 +1,6 @@
 ﻿namespace itlathApp.DAL.Core
 {
-    public class Person : AuditEntity
+    public abstract class Person : AuditEntity
     {
         public string FirstName { get; set; }
 

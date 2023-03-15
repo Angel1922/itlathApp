@@ -2,12 +2,12 @@
 
 namespace itlathApp.DAL.Core
 {
-    public class AuditEntity
+    public abstract class AuditEntity
     {
         public AuditEntity()
         {
             this.CreationDate = DateTime.Now;
-            this.deleted = false;
+            this.Deleted = false;
         }
 
         public int CreationUser { get; set; }
@@ -20,7 +20,7 @@ namespace itlathApp.DAL.Core
 
         public int UserDeleted { get; set; }
 
-        public bool deleted { get; set; }
+        public bool Deleted { get; set; }
 
     }
 }
