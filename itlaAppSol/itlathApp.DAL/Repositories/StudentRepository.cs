@@ -21,7 +21,7 @@ namespace itlathApp.DAL.Repositories
         {
             return this.itlaContext.Students.Any(st => st.FirstName == name);
         }
-
+        
         public List<Student> GetAll()
         {
             return this.itlaContext.Students.ToList();
