@@ -20,8 +20,8 @@ namespace itlathApp.DAL.Repositories
         public bool Exists(string name)
         {
             return this.itlaContext.Students.Any(st => st.FirstName == name);
-        }
-        
+        }   
+         
         public List<Student> GetAll()
         {
             return this.itlaContext.Students.ToList();
